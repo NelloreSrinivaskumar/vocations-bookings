@@ -1,0 +1,122 @@
+*{
+	margin: 0;	
+	padding:0;
+}
+body{
+	text-align: center;
+	background-color: rgba(0, 0, 255, 0.1);
+}
+h2 {
+	background-color: rgba(255,0,0,0.4);
+	padding:5px;
+	font-size:3rem;
+	color:white;
+	margin:0;
+	font-family: cursive;
+}
+
+.main{
+	list-style: none;
+	font-size: 17px;
+}
+
+li{
+	display: inline-block;
+    margin:10px 0px;
+    
+}
+li a{
+	text-decoration: none;
+	color: red;
+	padding: 10px 25px;
+
+}
+li a:hover{
+    background-color: lightseagreen;
+    color:whitesmoke;
+}
+
+h3{
+	font-size: 35px;
+	text-align: center;
+	font-style: oblique;
+	color:lightseagreen;
+}
+p{
+	font-size: 20px;
+	font-family: monospace ;
+    padding:20px 5em;
+    line-height: 3rempx;
+}
+.button{
+	background-color: pink;
+	border: none;
+	padding: 10px;
+	color: whitesmoke;
+	border-radius: 50px;
+}
+.button a{
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.button:hover{
+	background-color: whitesmoke;
+	color:pink;
+}
+
+
+.center{
+	display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image{
+    height: 450px;
+    width: 550px;
+    padding:4px;
+   }
+
+
+/*cards*/
+
+.main2{
+	width: 300px;
+	margin: 25px;
+	box-shadow: 0 0 10px black;padding: 10px;
+	display: inline-block;
+}
+
+.image2 img{
+    width: 100%;
+}
+
+.title{
+	font-size: 30px;
+}
+
+.des{
+	font-size: 15px;
+	font-family:cursive;
+	padding: 10px;
+}
+.button2{
+	text-decoration: none;
+}
+
+footer{
+	background-color: pink;
+    color:white;
+    margin-top: 16px;
+}
+footer .pp{
+	padding: 0px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
